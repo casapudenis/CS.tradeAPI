@@ -6,3 +6,5 @@ data = response_API.text
 parse_json=json.loads(data)
 with open('output_file.json', 'w') as f:
     json.dump(parse_json, f)
+
+
